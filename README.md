@@ -1,6 +1,6 @@
 # website-monitor
 
-This is a short Python script that can (preferably static) websites.
+This is a short Python script that can monitor (preferably static) websites. If the website was updated you will be notified.
 
 ## Installation
 
@@ -12,10 +12,11 @@ pip install git+https://github.com/YanicM/website-monitor.git
 
 ## Usage
 
-Just change the URL to the page you want to monitor.
+Change the URL to the page you want to monitor.
 ```python
 test_monitor = WebsiteToMonitor("https://news.ycombinator.com/")
 ```
+You can set a timer after which the website is checked again. The default is 60 seconds.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
